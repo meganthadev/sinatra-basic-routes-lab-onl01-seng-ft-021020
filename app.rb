@@ -6,11 +6,11 @@ class App < Sinatra::Base
     "Hello, World!"
   end   
   
-  get '/' do 
+  get '/name' do 
     "My name is __"
   end 
   
-  get '/' do 
+  get '/hometown' do 
     "My hometown is __"
   end 
   
